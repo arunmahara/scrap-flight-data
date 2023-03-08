@@ -88,7 +88,7 @@ try:
     df = pd.DataFrame(flights, columns=columns)
     df.index += 1 
     df.to_csv('flight_details.csv', index_label='SN')
-    print("Scrapping Completed!!!")
+    print("Scraping Completed!!!")
     
 except Exception as e:
 	print (str(e))
